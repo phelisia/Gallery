@@ -34,9 +34,9 @@ Give an example
 deployed this app in heroku
 
 # Built With
-Dropwizard - The web framework used
+Django- The web framework used
 Maven - Dependency Management
-ROME - Used to generate RSS Feeds
+CSS - Used to style
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
