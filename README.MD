@@ -2,10 +2,16 @@
 GALLERY
 
 # Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Create a virtual environment $ python3 -m venv --without-pip virtual
+
+Activate the virtual environment using $ source venv/bin/activate
+
+Download pip in our environment using $ curl https://bootstrap.pypa.io/get-pip.py | python
+
+Install all the dependencies from the requirements.txt file by running python3 pip install -r requirements.txt
 
 # Prerequisites
-install django  for arunning your app pillow for and bootstrap for styling
+install django  for arunning your app  create virtual environment and bootstrap for styling
 
 Give examples
 # Installing
