@@ -9,7 +9,9 @@ What things you need to install the software and how to install them
 
 Give examples
 # Installing
-A step by step series of examples that tell you how to get a development env running
+pip install django
+pip install bootstrap
+pip insatall pillo
 
 Say what the step will be
 
