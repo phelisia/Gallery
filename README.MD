@@ -57,3 +57,5 @@ to everyone who has contributed to this code
 # Contacts
 Email:phelisiajeruto@gmail.com
 Tel:0718117097
+# codebeat
+[![codebeat badge](https://codebeat.co/badges/929aad08-bf7c-4701-b57a-8c320e153976)]
