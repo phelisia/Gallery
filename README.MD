@@ -11,7 +11,16 @@ Download pip in our environment using $ curl https://bootstrap.pypa.io/get-pip.p
 Install all the dependencies from the requirements.txt file by running python3 pip install -r requirements.txt
 
 # Pre-requisites
-install django  for arunning your app  create virtual environment and bootstrap for styling
+Create a folder 
+
+Activate  virtual environment
+
+Install Django
+
+Create Django project
+
+Create Django app
+
 
 Give examples
 # Installing
@@ -36,9 +45,6 @@ deployed link:https://rocky-stream-38419.herokuapp.com/
 # Built With
 Django- The web framework used
 CSS - Used to style
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
 
 # Author
 Phelisia Jeruto
