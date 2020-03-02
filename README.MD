@@ -50,7 +50,7 @@ CSS - Used to style
 Phelisia Jeruto
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - 
 
 # Acknowledgment
 to everyone who has contributed to this code
