@@ -12,8 +12,10 @@
         <button class="btn btn-sm btn-info d-block mx-auto">Back Home</button>
     </a>
     {% endif %}
+    <div class="container-fluid">
     {% if images %}
-    <div class="card-columns">
+
+    <div class="row">
         {% for image in images %}
         <div class="card" data-toggle="modal" data-target="#{{image.id}}">
             <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img">
@@ -28,11 +30,15 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <img src="{{image.image.url}}" alt="{{image.name}}" class="img-fluid">
-                        <p>{{image.description}}</p>
-                        <span class="btn btn-sm btn-outline-success">{{image.category | title}}</span> <a href="/location/{{image.location}}" class="btn btn-sm btn-outline-info">{{image.location}}</a>
-                    </div>
+                    <div class="card" width="500px" style="margin-bottom:30px; margin:30px; height: 600px;">
+                            <img class="card-image text-center" height="400px" src="{{image.image.url}}" width="500px">
+                            <hr>
+                            <br>
+                            <p class="card-text text-center">category: {{image.category}}</p>
+                    
+                            <p class="card-text text-center">name : {{image.name}}</p>
+                            <p class="card-text text-center">location : {{image.location}}</p>
+                            <p class="card-text text-center">description : {{image.description}}</p>
                     <div class="modal-footer">
                         <input class="form-control input-lg" type="text"
                                value="{{image.image.url}}" id="{{image.id}}.url">
@@ -43,10 +49,10 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
         {% endfor %}
-    </div>
+    
     {% endif %}
 </div>
 {% endblock %}

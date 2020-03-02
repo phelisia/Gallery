@@ -2,7 +2,7 @@
 {% load bootstrap4 %}
 {% load static%}
 
-{% block content %} 
+{% block content %}
 {{ block.super}}
 
 <div class="container-fluid landing">
@@ -10,56 +10,27 @@
 
 </div>
 
-<div class="container-fluid boded" id="b">
-  <div class="container">
+<!-- <div class="container-fluid boded" id="b"> -->
+<div class="container-fluid">
+  <hr>
 
+  {% if images %}
+  <div class="row">
+    {% for image in images %}
+    
+    <div class="card" width="500px" style="margin-bottom:30px; margin:30px; height: 600px;">
+        <img class="card-image text-center" height="400px" src="{{image.image.url}}" width="500px">
+        <hr>
+        <br>
+        <p class="card-text text-center">category: {{image.category}}</p>
 
-      <!-- <div class="row">
-          <div class="col-md-7">
-          </div>
-          <div class="col-md-5">
-          <span id="locations">
-              {% for location in locations %}
-                  <a class="btn btn-outline-info btn-sm" id="btn"
-                     href="/location/{{location.name}}">{{location.name}}</a>
-              {%endfor%}
-           </span>
-          </div>
-      </div> -->
-      <hr>
+        <p class="card-text text-center">name : {{image.name}}</p>
+        <p class="card-text text-center">location : {{image.location}}</p>
+        <p class="card-text text-center">description : {{image.description}}</p>
 
-    {% if images %}
-    <div class="row">
-        {% for image in images %}
-        <div class="card-column">
-              <div class="col-sm-12 col-md-6 col-lg-3">
-              <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img"data-toggle="modal" data-target="#{{image.id}}">
-          </div>
+    </div>
+  
 
-
-          <div class="modal fade " id="{{image.id}}" tabindex="-1" role="dialog"
-               aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-md" role="document">
-                  <div class="modal-content modalcard">
-                      <div class="modal-header">
-                          <h5 class="modal-title" id="imageheader">{{image.name}}</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                          </button>
-                      </div>
-                      <div class="modal-body">
-                          <img src="{{image.image.url}}" alt="{{image.name}}" class="img-fluid">
-                          <p class="imgdesc text-center">{{image.description}}</p>
-                          <span class="btn btn-sm btn-outline-success">{{image.category}}</span> <a
-                              href="/location/{{image.location}}" class="btn btn-sm btn-outline-info">{{image.location}}</a>
-                      </div>
-         
-      </div>
-  </div>
-</div>
-</div>
-</div>
-             
-{% endfor %}
-{% endif %}
-{% endblock %}
+    {% endfor %}
+    {% endif %}
+    {% endblock %}
