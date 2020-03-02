@@ -30,20 +30,17 @@ End with an example of getting some data out of the system or using it for a lit
 # Running the tests
 Explain how to run the automated tests for this system
 
-# Break down into end to end tests
-Explain what these tests test and why
+# Setup and installation
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+To get the project .......
 
-Give an example
+Cloning the repository:
+
 # Deployment
 deployed this app in heroku
 deployed link:https://rocky-stream-38419.herokuapp.com/ 
 # Built With
 Django- The web framework used
-Maven - Dependency Management
 CSS - Used to style
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
