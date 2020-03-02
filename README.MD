@@ -40,7 +40,7 @@ Explain what these tests test and why
 Give an example
 # Deployment
 deployed this app in heroku
-
+deployed link:https://rocky-stream-38419.herokuapp.com/ 
 # Built With
 Django- The web framework used
 Maven - Dependency Management
