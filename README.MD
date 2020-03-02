@@ -40,7 +40,6 @@ To get the project .......
 Cloning the repository:https://github.com/phelisia/Gallery
 
 # Deployment
-deployed this app in heroku
 deployed link:https://rocky-stream-38419.herokuapp.com/ 
 # Built With
 Django- The web framework used
@@ -58,4 +57,4 @@ to everyone who has contributed to this code
 Email:phelisiajeruto@gmail.com
 Tel:0718117097
 # codebeat
-[![codebeat badge](https://codebeat.co/badges/929aad08-bf7c-4701-b57a-8c320e153976)]
+![codebeat badge](https://codebeat.co/badges/929aad08-bf7c-4701-b57a-8c320e153976)

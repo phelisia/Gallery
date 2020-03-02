@@ -27,10 +27,26 @@
         <p class="card-text text-center">name : {{image.name}}</p>
         <p class="card-text text-center">location : {{image.location}}</p>
         <p class="card-text text-center">description : {{image.description}}</p>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 padding-1">
+          <input type="text"  class="form-control w- mx-3" value="{{image.image.url}}" id="myInput">
+          <button class="btn btn-sm btn-outline-info" onclick="myFunction()">Copy Url</button>
+          <br><br>
+      </div>
+
 
     </div>
   
 
     {% endfor %}
     {% endif %}
+    <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        alert("Copied the link: " + copyText.value);
+      }
+      </script>
+      
     {% endblock %}
