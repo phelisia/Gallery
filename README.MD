@@ -10,22 +10,16 @@ Download pip in our environment using $ curl https://bootstrap.pypa.io/get-pip.p
 
 Install all the dependencies from the requirements.txt file by running python3 pip install -r requirements.txt
 
-# Prerequisites
+# Pre-requisites
 install django  for arunning your app  create virtual environment and bootstrap for styling
 
 Give examples
 # Installing
 pip install django
 pip install bootstrap
-pip insatall pillo
+pip insatall pillow
 
-Say what the step will be
 
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
 
 # Running the tests
 Explain how to run the automated tests for this system
@@ -34,7 +28,7 @@ Explain how to run the automated tests for this system
 
 To get the project .......
 
-Cloning the repository:
+Cloning the repository:https://github.com/phelisia/Gallery
 
 # Deployment
 deployed this app in heroku
@@ -45,10 +39,8 @@ CSS - Used to style
 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
 
-# Authors
+# Author
 Phelisia Jeruto
 
 # License
@@ -56,3 +48,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 # Acknowledgment
 to everyone who has contributed to this code
+# Contacts
+Email:phelisiajeruto@gmail.com
+Tel:0718117097
