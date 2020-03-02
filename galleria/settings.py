@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+ROOT_URLCONF='galleria.urls'
 
 TEMPLATES = [
     {
